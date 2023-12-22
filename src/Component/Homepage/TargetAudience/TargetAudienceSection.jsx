@@ -2,10 +2,10 @@ import React from 'react';
 
 const TargetAudienceSection = () => {
   return (
-    <section className="bg-gray-100 py-12">
+    <section className="bg-cyan-800 p-12">
       <div className="container mx-auto text-center">
-        <h2 className="text-3xl font-semibold mb-6">Who Can Benefit?</h2>
-        <p className="text-gray-600 mb-8">
+        <h2 className="text-3xl font-semibold mb-2 bg-white py-4">Who Can Benefit?</h2>
+        <p className="text-white mb-8">
           Our website is designed to cater to a diverse audience. Whether you're a developer, corporate professional, banker, or someone else, you'll find value in our platform.
         </p>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">

@@ -49,8 +49,8 @@ const Banner = () => {
       >
         <div className="overlay"></div>
         <div className="content text-center w-2/4 md:w-full">
-          <h2 className="text-lg md:text-4xl">Fill up the survey</h2>
-          <h2 className="mt-4 text-base md:text-xl">You can find your Best survey <span className=" rounded-md px-3  bg-green-500 md:bg-green-500 text-white md:text-white hover:bg-rose-600 cursor-pointer"> Here</span></h2>
+          <h2 className="text-lg md:text-4xl">Fill up the</h2>
+          <h2 className="mt-4 text-base md:text-xl">You can find your Best tasks <span className=" rounded-md px-3  bg-green-500 md:bg-green-500 text-white md:text-white hover:bg-rose-600 cursor-pointer"> Here</span></h2>
         </div>
         
         <div className=" arrow-btn">

@@ -15,6 +15,7 @@ import AuthProvider from './Component/Authentication/AuthProvider/AuthProvider.j
 import Dashboard from './Component/Dashboard/Dashboard.jsx';
 import PrivateRoute from './Component/Authentication/PrivateRoute/PrivateRoute.jsx';
 import Task from './Component/Dashboard/Task.jsx';
+import FAQ from './Component/FAQ/faq.jsx';
 
 const router = createBrowserRouter([
   {
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
       {
         path: "/register",
         element: <Register></Register>,
+      },
+      {
+        path: "/faq",
+        element: <FAQ></FAQ>,
       },
       {
         path: '/dashboard',

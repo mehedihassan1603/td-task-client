@@ -18,7 +18,7 @@ const Navbar = () => {
   
   return (
     <div>
-      <div className="navbar bg-gradient-to-r from-emerald-800 via-emerald-600 to-emerald-800 text-white">
+      <div className="navbar bg-gradient-to-r from-cyan-800 via-cyan-600 to-cyan-800 text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -45,13 +45,10 @@ const Navbar = () => {
               <NavLink to="/">Home</NavLink>
             </li>
             <li>
-              <NavLink to="/surveys">Surveys</NavLink>
-            </li>
-            <li>
               <NavLink to="/dash">Dashboard</NavLink>
             </li>
             <li>
-              <NavLink to="/pricing">Pro</NavLink>
+              <NavLink to="/allTask">All Task</NavLink>
             </li>
             <li>
               <NavLink to="/faq">FAQ?</NavLink>
@@ -80,7 +77,7 @@ const Navbar = () => {
               <NavLink to="/dashboard">Dashboard</NavLink>
             </li>
             <li>
-              <NavLink to="/pricing">Pro</NavLink>
+              <NavLink to="/allTask">All Task</NavLink>
             </li>
             <li>
               <NavLink to="/faq">FAQ?</NavLink>
